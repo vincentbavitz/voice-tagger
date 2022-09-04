@@ -17,12 +17,13 @@ You can get audio files using `yt-dlp` or simply use existing local files.
 1. Upload file to Google Cloud Platform bucket
 2. Transcribe the audio file [here](https://console.cloud.google.com/speech/transcriptions)
 3. Download the JSON of the transcription and place it in `./transcripts`.
-4. Run one of the following (either):
+4. Install dependencies: `cd src`, `yarn install`
+5. Run one of the following (either):
 
    - `./build/voice-transcription`
    - `deno run --allow-read --allow-write --allow-env --output ./build/voice-transcription ./src/main.ts`
 
-5. View the output markdown file at `./output`.
+6. View the output markdown file at `./output`.
 
 ---
 
