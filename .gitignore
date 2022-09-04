@@ -1,0 +1,6 @@
+audio/*
+src/node_modules/
+videos.txt
+transcripts/*
+output/*
+build/*
