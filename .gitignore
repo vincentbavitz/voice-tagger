@@ -4,3 +4,5 @@ videos.txt
 transcripts/*
 output/*
 build/*
+# src/serapeum.ts
+videos.json
